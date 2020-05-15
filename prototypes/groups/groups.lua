@@ -5,7 +5,7 @@ data:extend(
     type = "item-group",
     name = "darkstar-core",
     order = "f",
-    icon = "__darkstar-weapons__/graphics/groups/darkstar-weapon.png",
+    icon = "__darkstar-core__/graphics/groups/darkstar1.png",
     icon_size = 256
   },
   {
