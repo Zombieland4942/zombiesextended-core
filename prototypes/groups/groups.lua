@@ -32,6 +32,12 @@ data:extend(
     name = "ds-assult",
     group = "darkstar-weapons",
     order = "a"
+  },
+  {
+    type = "item-subgroup",
+    name = "ds-sniper",
+    group = "darkstar-weapons",
+    order = "b"
   }
 }
 )
