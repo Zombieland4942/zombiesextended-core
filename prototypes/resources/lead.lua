@@ -8,15 +8,32 @@ data:extend(
     richness = true,
     order = "b-h",
     category = "resource"
+  },  
+  {
+    type = "recipe",
+    name = "lead-plate",
+    category = "smelting",
+    energy_required = 3.2,
+    ingredients = {{"lead-ore", 1}},
+    result = "lead-plate"
   },
   {
     type = "item",
     name = "lead-ore",
     icon = "__darkstar-core__/graphics/icons/lead-ore.png",
     icon_size = 32,
-    subgroup = "raw-resource",
-    order = "e[lead-ore]",
+    subgroup = "ds-raw-resource",
+    order = "f[lead-ore]",
     stack_size = 50
+  },  
+  {
+    type = "item",
+    name = "lead-plate",
+    icon = "__darkstar-core__/graphics/icons/lead-plate.png",
+    icon_size = 32,
+    subgroup = "ds-raw-material",
+    order = "e[lead-plate]",
+    stack_size = 100
   },
   {
     type = "resource",

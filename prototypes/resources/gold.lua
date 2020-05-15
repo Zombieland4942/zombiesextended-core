@@ -10,13 +10,30 @@ data:extend(
     category = "resource"
   },
   {
+    type = "recipe",
+    name = "gold-plate",
+    category = "smelting",
+    energy_required = 3.2,
+    ingredients = {{"gold-ore", 1}},
+    result = "gold-plate"
+  },
+  {
     type = "item",
     name = "gold-ore",
     icon = "__darkstar-core__/graphics/icons/gold-ore.png",
     icon_size = 32,
-    subgroup = "raw-resource",
-    order = "e[iron-ore]",
+    subgroup = "ds-raw-resource",
+    order = "e[gold-ore]",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "gold-plate",
+    icon = "__darkstar-core__/graphics/icons/gold-plate.png",
+    icon_size = 32,
+    subgroup = "ds-raw-material",
+    order = "d[gold-plate]",
+    stack_size = 100
   },
   {
     type = "resource",
