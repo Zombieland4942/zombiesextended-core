@@ -49,7 +49,13 @@ data:extend(
             type = "item-subgroup",
             name = "ds-rockets",
             group = "darkstar-weapons-equipment",
-            order = "c"
+            order = "d"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-equipment",
+            group = "darkstar-weapons-equipment",
+            order = "e"
         }
     }
 )
