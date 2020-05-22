@@ -21,6 +21,12 @@ data:extend(
             order = "b"
         },
         {
+            type = "item-subgroup",
+            name = "ds-fuel",
+            group = "darkstar-core",
+            order = "c"
+        },
+        {
             type = "item-group",
             name = "darkstar-weapons-equipment",
             order = "g",
@@ -56,6 +62,55 @@ data:extend(
             name = "ds-equipment",
             group = "darkstar-weapons-equipment",
             order = "e"
+        },
+        {
+            type = "item-group",
+            name = "darkstar-power",
+            order = "h",
+            icon = "__darkstar-core__/graphics/groups/darkstar-power.png",
+            icon_size = 256
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-rtg",
+            group = "darkstar-power",
+            order = "a"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-solar",
+            group = "darkstar-power",
+            order = "c"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-accumulator",
+            group = "darkstar-power",
+            order = "d"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-geothermal",
+            group = "darkstar-power",
+            order = "b"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-reactors",
+            group = "darkstar-power",
+            order = "e"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-heat-exchangers",
+            group = "darkstar-power",
+            order = "f"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-steam-turbines",
+            group = "darkstar-power",
+            order = "g"
         }
     }
 )
