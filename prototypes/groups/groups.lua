@@ -111,6 +111,12 @@ data:extend(
             name = "ds-steam-turbines",
             group = "darkstar-power",
             order = "g"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-power-dist",
+            group = "darkstar-power",
+            order = "h"
         }
     }
 )
