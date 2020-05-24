@@ -58,6 +58,12 @@ data:extend(
             order = "f"
         }, 
         {
+            type = "item-subgroup",
+            name = "ds-modules",
+            group = "darkstar-production",
+            order = "g"
+        },
+        {
             type = "item-group",
             name = "darkstar-intermediates",
             order = "f",
