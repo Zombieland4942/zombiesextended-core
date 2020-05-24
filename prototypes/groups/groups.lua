@@ -113,6 +113,12 @@ data:extend(
             group = "darkstar-combat",
             order = "e"
         },
+        {
+            type = "item-subgroup",
+            name = "ds-defence",
+            group = "darkstar-combat",
+            order = "f"
+        },
     }
 )
 
