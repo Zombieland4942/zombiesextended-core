@@ -1,122 +1,119 @@
   
 data:extend(
-    {
+    {   
         {
             type = "item-group",
-            name = "darkstar-core",
+            name = "darkstar-logistics",
+            order = "d",
+            icon = "__darkstar-core__/graphics/groups/darkstar-logistics.png",
+            icon_size = 256
+        },        
+        {
+            type = "item-subgroup",
+            name = "ds-power-dist",
+            group = "darkstar-logistics",
+            order = "a"
+        },
+        {
+            type = "item-group",
+            name = "darkstar-production",
+            order = "e",
+            icon = "__darkstar-core__/graphics/groups/darkstar-production.png",
+            icon_size = 256
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-early-power",
+            group = "darkstar-production",
+            order = "a"
+        },        
+        {
+            type = "item-subgroup",
+            name = "ds-solar",
+            group = "darkstar-production",
+            order = "b"
+        },       
+        {
+            type = "item-subgroup",
+            name = "ds-reactors",
+            group = "darkstar-production",
+            order = "c"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-extraction",
+            group = "darkstar-production",
+            order = "d"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-assembly-machines",
+            group = "darkstar-production",
+            order = "e"
+        }, 
+        {
+            type = "item-group",
+            name = "darkstar-intermediates",
             order = "f",
-            icon = "__darkstar-core__/graphics/groups/darkstar-core.png",
+            icon = "__darkstar-core__/graphics/groups/darkstar-intermediates.png",
             icon_size = 256
         },
         {
             type = "item-subgroup",
             name = "ds-raw-resource",
-            group = "darkstar-core",
+            group = "darkstar-intermediates",
             order = "a"
         },
         {
             type = "item-subgroup",
             name = "ds-raw-material",
-            group = "darkstar-core",
+            group = "darkstar-intermediates",
             order = "b"
         },
         {
             type = "item-subgroup",
             name = "ds-fuel",
-            group = "darkstar-core",
+            group = "darkstar-intermediates",
             order = "c"
         },
         {
             type = "item-group",
-            name = "darkstar-weapons-equipment",
+            name = "darkstar-combat",
             order = "g",
-            icon = "__darkstar-core__/graphics/groups/darkstar-weapon-equipment.png",
+            icon = "__darkstar-core__/graphics/groups/darkstar-combat.png",
             icon_size = 256
         },
         {
             type = "item-subgroup",
             name = "ds-assult",
-            group = "darkstar-weapons-equipment",
+            group = "darkstar-combat",
             order = "a"
         },
         {
             type = "item-subgroup",
             name = "ds-sniper",
-            group = "darkstar-weapons-equipment",
+            group = "darkstar-combat",
             order = "b"
         },
         {
             type = "item-subgroup",
             name = "ds-railgun",
-            group = "darkstar-weapons-equipment",
+            group = "darkstar-combat",
             order = "c"
         },
         {
             type = "item-subgroup",
             name = "ds-rockets",
-            group = "darkstar-weapons-equipment",
+            group = "darkstar-combat",
             order = "d"
         },
         {
             type = "item-subgroup",
             name = "ds-equipment",
-            group = "darkstar-weapons-equipment",
+            group = "darkstar-combat",
             order = "e"
         },
-        {
-            type = "item-group",
-            name = "darkstar-power",
-            order = "h",
-            icon = "__darkstar-core__/graphics/groups/darkstar-power.png",
-            icon_size = 256
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-rtg",
-            group = "darkstar-power",
-            order = "a"
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-solar",
-            group = "darkstar-power",
-            order = "c"
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-accumulator",
-            group = "darkstar-power",
-            order = "d"
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-geothermal",
-            group = "darkstar-power",
-            order = "b"
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-reactors",
-            group = "darkstar-power",
-            order = "e"
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-heat-exchangers",
-            group = "darkstar-power",
-            order = "f"
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-steam-turbines",
-            group = "darkstar-power",
-            order = "g"
-        },
-        {
-            type = "item-subgroup",
-            name = "ds-power-dist",
-            group = "darkstar-power",
-            order = "h"
-        }
     }
 )
+
+--reclaimed power
