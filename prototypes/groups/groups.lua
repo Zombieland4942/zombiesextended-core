@@ -47,9 +47,15 @@ data:extend(
         },
         {
             type = "item-subgroup",
-            name = "ds-assembly-machines",
+            name = "ds-smelting",
             group = "darkstar-production",
             order = "e"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-assembly-machines",
+            group = "darkstar-production",
+            order = "f"
         }, 
         {
             type = "item-group",
