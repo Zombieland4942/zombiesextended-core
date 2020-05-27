@@ -10,9 +10,21 @@ data:extend(
         },        
         {
             type = "item-subgroup",
-            name = "ds-power-dist",
+            name = "ds-belt",
             group = "darkstar-logistics",
             order = "a"
+        },       
+        {
+            type = "item-subgroup",
+            name = "ds-inserters",
+            group = "darkstar-logistics",
+            order = "b"
+        },       
+        {
+            type = "item-subgroup",
+            name = "ds-power-dist",
+            group = "darkstar-logistics",
+            order = "c"
         },
         {
             type = "item-group",
