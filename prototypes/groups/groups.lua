@@ -19,12 +19,18 @@ data:extend(
             name = "ds-inserters",
             group = "darkstar-logistics",
             order = "b"
-        },       
+        },        
+        {
+            type = "item-subgroup",
+            name = "ds-stackinserters",
+            group = "darkstar-logistics",
+            order = "c"
+        },      
         {
             type = "item-subgroup",
             name = "ds-power-dist",
             group = "darkstar-logistics",
-            order = "c"
+            order = "d"
         },
         {
             type = "item-group",
@@ -151,5 +157,3 @@ data:extend(
         },
     }
 )
-
---reclaimed power
