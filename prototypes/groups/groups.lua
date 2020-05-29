@@ -139,9 +139,15 @@ data:extend(
         },
         {
             type = "item-subgroup",
-            name = "ds-defence",
+            name = "ds-wall",
             group = "darkstar-combat",
             order = "f"
+        },      
+        {
+            type = "item-subgroup",
+            name = "ds-radar",
+            group = "darkstar-combat",
+            order = "g"
         },
     }
 )
