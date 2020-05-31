@@ -7,30 +7,54 @@ data:extend(
             order = "d",
             icon = "__darkstar-core__/graphics/groups/darkstar-logistics.png",
             icon_size = 256
+        },         
+        {
+            type = "item-subgroup",
+            name = "ds-storage",
+            group = "darkstar-logistics",
+            order = "a"
         },        
         {
             type = "item-subgroup",
             name = "ds-belt",
             group = "darkstar-logistics",
-            order = "a"
+            order = "b"
         },       
         {
             type = "item-subgroup",
             name = "ds-inserters",
             group = "darkstar-logistics",
-            order = "b"
+            order = "c"
         },        
         {
             type = "item-subgroup",
             name = "ds-stackinserters",
             group = "darkstar-logistics",
-            order = "c"
+            order = "d"
         },      
         {
             type = "item-subgroup",
             name = "ds-power-dist",
             group = "darkstar-logistics",
-            order = "d"
+            order = "e"
+        },      
+        {
+            type = "item-subgroup",
+            name = "ds-trains",
+            group = "darkstar-logistics",
+            order = "f"
+        },      
+        {
+            type = "item-subgroup",
+            name = "ds-robots",
+            group = "darkstar-logistics",
+            order = "g"
+        },     
+        {
+            type = "item-subgroup",
+            name = "ds-robotports",
+            group = "darkstar-logistics",
+            order = "h"
         },
         {
             type = "item-group",
@@ -41,45 +65,51 @@ data:extend(
         },
         {
             type = "item-subgroup",
-            name = "ds-early-power",
+            name = "ds-tools",
             group = "darkstar-production",
             order = "a"
+        }, 
+        {
+            type = "item-subgroup",
+            name = "ds-early-power",
+            group = "darkstar-production",
+            order = "b"
         },        
         {
             type = "item-subgroup",
             name = "ds-solar",
             group = "darkstar-production",
-            order = "b"
+            order = "c"
         },       
         {
             type = "item-subgroup",
             name = "ds-reactors",
             group = "darkstar-production",
-            order = "c"
+            order = "d"
         },
         {
             type = "item-subgroup",
             name = "ds-extraction",
             group = "darkstar-production",
-            order = "d"
+            order = "e"
         },
         {
             type = "item-subgroup",
             name = "ds-smelting",
             group = "darkstar-production",
-            order = "e"
+            order = "f"
         },
         {
             type = "item-subgroup",
             name = "ds-assembly-machines",
             group = "darkstar-production",
-            order = "f"
+            order = "g"
         }, 
         {
             type = "item-subgroup",
             name = "ds-modules",
             group = "darkstar-production",
-            order = "g"
+            order = "h"
         },
         {
             type = "item-group",

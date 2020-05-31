@@ -1,6 +1,7 @@
 -- Misc
-require("prototypes.groups.groups")
+require("prototypes.groups")
+require("prototypes.repair_packs")
 
 -- Resources
-require("prototypes.resources.gold")
-require("prototypes.resources.lead")
+require("prototypes.gold")
+require("prototypes.vibranium")

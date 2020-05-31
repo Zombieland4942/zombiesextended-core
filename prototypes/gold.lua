@@ -21,7 +21,7 @@ data:extend(
     type = "item",
     name = "gold-ore",
     icon = "__darkstar-core__/graphics/icons/gold-ore.png",
-    icon_size = 32,
+    icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-resource",
     order = "e[gold-ore]",
     stack_size = 50
@@ -30,7 +30,7 @@ data:extend(
     type = "item",
     name = "gold-plate",
     icon = "__darkstar-core__/graphics/icons/gold-plate.png",
-    icon_size = 32,
+    icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-material",
     order = "d[gold-plate]",
     stack_size = 100
@@ -39,7 +39,7 @@ data:extend(
     type = "resource",
     name = "gold-ore",
     icon = "__darkstar-core__/graphics/icons/gold-ore.png",
-    icon_size = 32,
+    icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral"},
     order="a-b-e",
     tree_removal_probability = 0.7,
@@ -92,10 +92,18 @@ data:extend(
       {
         filename = "__darkstar-core__/graphics/entity/gold-ore.png",
         priority = "extra-high",
-        width = 64,
-        height = 64,
+        size = 64,
         frame_count = 8,
-        variation_count = 8
+        variation_count = 8,
+        hr_version =
+        {
+          filename = "__darkstar-core__/graphics/entity/hr-gold-ore.png",
+          priority = "extra-high",
+          size = 128,
+          frame_count = 8,
+          variation_count = 8,
+          scale = 0.5
+        }
       }
     },
     effect_animation_period = 5,

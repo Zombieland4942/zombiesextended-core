@@ -4,41 +4,41 @@ data:extend(
 {
   {
     type = "autoplace-control",
-    name = "lead-ore",
+    name = "vibranium-ore",
     richness = true,
     order = "b-h",
     category = "resource"
   },  
   {
     type = "recipe",
-    name = "lead-plate",
+    name = "vibranium-plate",
     category = "smelting",
     energy_required = 3.2,
-    ingredients = {{"lead-ore", 1}},
-    result = "lead-plate"
+    ingredients = {{"vibranium-ore", 1}},
+    result = "vibranium-plate"
   },
   {
     type = "item",
-    name = "lead-ore",
-    icon = "__darkstar-core__/graphics/icons/lead-ore.png",
-    icon_size = 32,
+    name = "vibranium-ore",
+    icon = "__darkstar-core__/graphics/icons/vibranium-ore.png",
+    icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-resource",
-    order = "f[lead-ore]",
+    order = "b",
     stack_size = 50
   },  
   {
     type = "item",
-    name = "lead-plate",
-    icon = "__darkstar-core__/graphics/icons/lead-plate.png",
-    icon_size = 32,
+    name = "vibranium-plate",
+    icon = "__darkstar-core__/graphics/icons/vibranium-plate.png",
+    icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-material",
-    order = "e[lead-plate]",
+    order = "b",
     stack_size = 100
   },
   {
     type = "resource",
-    name = "lead-ore",
-    icon = "__darkstar-core__/graphics/icons/lead-ore.png",
+    name = "vibranium-ore",
+    icon = "__darkstar-core__/graphics/icons/vibranium-ore.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     order="a-b-e",
@@ -70,13 +70,13 @@ data:extend(
     {
       mining_particle = "stone-particle",
       mining_time = 1,
-      result = "lead-ore"
+      result = "vibranium-ore"
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     autoplace = resource_autoplace.resource_autoplace_settings
     {
-      name = "lead-ore",
+      name = "vibranium-ore",
       order = "b",
       base_density = 8,
       has_starting_area_placement = true,
@@ -87,14 +87,22 @@ data:extend(
     stage_counts = {15000, 9500, 5500, 2900, 1300, 400, 150, 80},
     stages =
     {
-      sheet =
+      sheet = 
       {
-        filename = "__darkstar-core__/graphics/entity/lead-ore.png",
+        filename = "__darkstar-core__/graphics/entity/vibranium-ore.png",
         priority = "extra-high",
-        width = 64,
-        height = 64,
+        size = 64,
         frame_count = 8,
-        variation_count = 8
+        variation_count = 8,
+        hr_version =
+        {
+          filename = "__darkstar-core__/graphics/entity/hr-vibranium-ore.png",
+          priority = "extra-high",
+          size = 128,
+          frame_count = 8,
+          variation_count = 8,
+          scale = 0.5
+        }
       }
     },
     effect_animation_period = 5,
