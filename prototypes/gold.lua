@@ -1,5 +1,3 @@
--- TODO Make new Graphics
-
 data:extend(
 {
   {
@@ -14,7 +12,7 @@ data:extend(
     name = "gold-plate",
     category = "smelting",
     energy_required = 3.2,
-    ingredients = {{"gold-ore", 1}},
+    ingredients = {{"gold-ore", 5}},
     result = "gold-plate"
   },
   {
@@ -23,7 +21,7 @@ data:extend(
     icon = "__darkstar-core__/graphics/icons/gold-ore.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-resource",
-    order = "e[gold-ore]",
+    order = "a",
     stack_size = 50
   },
   {
@@ -32,7 +30,7 @@ data:extend(
     icon = "__darkstar-core__/graphics/icons/gold-plate.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-material",
-    order = "d[gold-plate]",
+    order = "a",
     stack_size = 100
   },
   {
@@ -77,10 +75,10 @@ data:extend(
     autoplace = resource_autoplace.resource_autoplace_settings
     {
       name = "gold-ore",
-      order = "b",
+      order = "d",
       base_density = 0.9,
       base_spots_per_km2 = 1.25,
-      has_starting_area_placement = false,
+      has_starting_area_placement = true,
       random_spot_size_minimum = 2,
       random_spot_size_maximum = 4,
       regular_rq_factor_multiplier = 1

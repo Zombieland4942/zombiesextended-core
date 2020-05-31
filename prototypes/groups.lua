@@ -132,9 +132,15 @@ data:extend(
         },
         {
             type = "item-subgroup",
-            name = "ds-fuel",
+            name = "ds-intermediates",
             group = "darkstar-intermediates",
             order = "c"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-fuel",
+            group = "darkstar-intermediates",
+            order = "d"
         },
         {
             type = "item-group",

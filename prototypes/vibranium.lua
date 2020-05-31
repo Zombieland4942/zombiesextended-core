@@ -1,5 +1,3 @@
--- TODO Make new Graphics
-
 data:extend(
 {
   {
@@ -69,7 +67,7 @@ data:extend(
     minable =
     {
       mining_particle = "stone-particle",
-      mining_time = 1,
+      mining_time = 10,
       result = "vibranium-ore"
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -77,12 +75,13 @@ data:extend(
     autoplace = resource_autoplace.resource_autoplace_settings
     {
       name = "vibranium-ore",
-      order = "b",
-      base_density = 8,
-      has_starting_area_placement = true,
-      regular_rq_factor_multiplier = 1.10,
-      starting_rq_factor_multiplier = 1.2,
-      candidate_spot_count = 22
+      order = "d",
+      base_density = 0.9,
+      base_spots_per_km2 = 1.25,
+      has_starting_area_placement = false,
+      random_spot_size_minimum = 2,
+      random_spot_size_maximum = 4,
+      regular_rq_factor_multiplier = 1
     },
     stage_counts = {15000, 9500, 5500, 2900, 1300, 400, 150, 80},
     stages =
