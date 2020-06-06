@@ -11,8 +11,8 @@ data:extend(
     type = "recipe",
     name = "vibranium-plate",
     category = "smelting",
-    energy_required = 3.2,
-    ingredients = {{"vibranium-ore", 1}},
+    energy_required = 12.8,
+    ingredients = {{"vibranium-ore", 20}},
     result = "vibranium-plate"
   },
   {
@@ -67,7 +67,7 @@ data:extend(
     minable =
     {
       mining_particle = "stone-particle",
-      mining_time = 10,
+      mining_time = 1,
       result = "vibranium-ore"
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
