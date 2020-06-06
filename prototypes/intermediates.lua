@@ -22,6 +22,29 @@ data:extend({
     },
     result = "complex-processing-unit"
   },
+  {
+    type = "technology",
+    name = "complex-processing-unit",
+    icon_size = 128,
+    icon = "__darkstar-core__/graphics/technology/complex-processing-unit.png",
+    effects = {
+      {
+        type = "unlock-recipe",
+        recipe = "complex-processing-unit"
+      }
+    },
+    unit =
+    {
+      count = 600,
+      ingredients = {
+        {"automation-science-pack",1},
+        {"logistic-science-pack",1},
+        {"chemical-science-pack",1},
+        {"production-science-pack",1}
+      },
+      time = 30
+    },
+    prerequisites = {"advanced-electronics-2"},
+    order = "a-b-c"
+  }
 })
-
--- Advanced Flying Robot Frame
