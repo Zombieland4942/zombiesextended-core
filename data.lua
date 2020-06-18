@@ -8,3 +8,4 @@ require("prototypes.vibranium")
 
 -- Intermediates
 require("prototypes.intermediates")
+require("prototypes.nuclear_fuel")
