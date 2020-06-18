@@ -29,7 +29,7 @@ data:extend(
     name = "gold-plate",
     icon = "__darkstar-core__/graphics/icons/gold-plate.png",
     icon_size = 64, icon_mipmaps = 4,
-    subgroup = "ds-raw-material",
+    subgroup = "ds-intermediates",
     order = "a",
     stack_size = 100
   },

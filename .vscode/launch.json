@@ -8,7 +8,7 @@
             "type": "factoriomod",
             "request": "launch",
             "name": "Factorio Mod Debug",
-            "factorioPath": "C:/FactorioDev/Darkstar/Factorio_0.18/bin/x64/factorio.exe"
+            "factorioPath": "C:/FactorioDev/ZombiesExtended/Factorio_0.18/bin/x64/factorio.exe"
         }
     ]
 }

@@ -29,7 +29,7 @@ data:extend(
     name = "vibranium-plate",
     icon = "__darkstar-core__/graphics/icons/vibranium-plate.png",
     icon_size = 64, icon_mipmaps = 4,
-    subgroup = "ds-raw-material",
+    subgroup = "ds-intermediates",
     order = "b",
     stack_size = 100
   },
