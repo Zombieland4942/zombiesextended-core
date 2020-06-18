@@ -18,7 +18,7 @@ data:extend(
   {
     type = "item",
     name = "gold-ore",
-    icon = "__darkstar-core__/graphics/icons/gold-ore.png",
+    icon = "__zombiesextended-core__/graphics/icons/gold-ore.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-resource",
     order = "a",
@@ -27,7 +27,7 @@ data:extend(
   {
     type = "item",
     name = "gold-plate",
-    icon = "__darkstar-core__/graphics/icons/gold-plate.png",
+    icon = "__zombiesextended-core__/graphics/icons/gold-plate.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-intermediates",
     order = "a",
@@ -36,7 +36,7 @@ data:extend(
   {
     type = "resource",
     name = "gold-ore",
-    icon = "__darkstar-core__/graphics/icons/gold-ore.png",
+    icon = "__zombiesextended-core__/graphics/icons/gold-ore.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral"},
     order="a-b-e",
@@ -88,14 +88,14 @@ data:extend(
     {
       sheet =
       {
-        filename = "__darkstar-core__/graphics/entity/gold-ore.png",
+        filename = "__zombiesextended-core__/graphics/entity/gold-ore.png",
         priority = "extra-high",
         size = 64,
         frame_count = 8,
         variation_count = 8,
         hr_version =
         {
-          filename = "__darkstar-core__/graphics/entity/hr-gold-ore.png",
+          filename = "__zombiesextended-core__/graphics/entity/hr-gold-ore.png",
           priority = "extra-high",
           size = 128,
           frame_count = 8,

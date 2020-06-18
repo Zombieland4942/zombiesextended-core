@@ -18,7 +18,7 @@ data:extend(
   {
     type = "item",
     name = "vibranium-ore",
-    icon = "__darkstar-core__/graphics/icons/vibranium-ore.png",
+    icon = "__zombiesextended-core__/graphics/icons/vibranium-ore.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-raw-resource",
     order = "b",
@@ -27,7 +27,7 @@ data:extend(
   {
     type = "item",
     name = "vibranium-plate",
-    icon = "__darkstar-core__/graphics/icons/vibranium-plate.png",
+    icon = "__zombiesextended-core__/graphics/icons/vibranium-plate.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-intermediates",
     order = "b",
@@ -36,7 +36,7 @@ data:extend(
   {
     type = "resource",
     name = "vibranium-ore",
-    icon = "__darkstar-core__/graphics/icons/vibranium-ore.png",
+    icon = "__zombiesextended-core__/graphics/icons/vibranium-ore.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     order="a-b-e",
@@ -88,14 +88,14 @@ data:extend(
     {
       sheet = 
       {
-        filename = "__darkstar-core__/graphics/entity/vibranium-ore.png",
+        filename = "__zombiesextended-core__/graphics/entity/vibranium-ore.png",
         priority = "extra-high",
         size = 64,
         frame_count = 8,
         variation_count = 8,
         hr_version =
         {
-          filename = "__darkstar-core__/graphics/entity/hr-vibranium-ore.png",
+          filename = "__zombiesextended-core__/graphics/entity/hr-vibranium-ore.png",
           priority = "extra-high",
           size = 128,
           frame_count = 8,

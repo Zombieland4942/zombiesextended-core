@@ -1,12 +1,12 @@
 {
-    "name": "darkstar-core",
+    "name": "zombiesextended-core",
     "version": "0.0.1",
-    "title": "Darkstar Core",
+    "title": "ZombiesExtended Core",
     "author": "zombieland4942",
     "contact": "",
     "homepage": "",
     "dependencies": [
-        "base >= 0.18.24"
+        "base >= 0.18.31"
     ],
     "description": "",
     "factorio_version": "0.18"

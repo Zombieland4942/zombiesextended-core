@@ -4,7 +4,7 @@ data:extend({
   {
     type = "item",
     name = "complex-processing-unit",
-    icon = "__darkstar-core__/graphics/icons/complex-processing-unit.png",
+    icon = "__zombiesextended-core__/graphics/icons/complex-processing-unit.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "ds-intermediates",
     order = "a",
@@ -26,7 +26,7 @@ data:extend({
     type = "technology",
     name = "complex-processing-unit",
     icon_size = 128,
-    icon = "__darkstar-core__/graphics/technology/complex-processing-unit.png",
+    icon = "__zombiesextended-core__/graphics/technology/complex-processing-unit.png",
     effects = {
       {
         type = "unlock-recipe",

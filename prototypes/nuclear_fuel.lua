@@ -27,7 +27,7 @@ for x, nuclear_fuel in pairs(nuclear_fuel_items) do
     item = util.table.deepcopy(fuel_base)
 
     item.name = nuclear_fuel.name
-    item.icon = "__darkstar-core__/graphics/icons/" .. nuclear_fuel.name .. ".png"    
+    item.icon = "__zombiesextended-core__/graphics/icons/" .. nuclear_fuel.name .. ".png"    
     item.order = nuclear_fuel.order
     item.subgroup = "ds-fuel"
     item.fuel_value = nuclear_fuel.fuel_value
@@ -46,7 +46,7 @@ for x, nuclear_fuel in pairs(nuclear_fuel_items) do
         type = "technology",
         name = nuclear_fuel.technology.name,
         icon_size = 128,
-        icon = "__darkstar-core__/graphics/technology/" .. nuclear_fuel.technology.name .. ".png",
+        icon = "__zombiesextended-core__/graphics/technology/" .. nuclear_fuel.technology.name .. ".png",
         effects = {
             { type = "unlock-recipe", recipe = nuclear_fuel.name }
         },

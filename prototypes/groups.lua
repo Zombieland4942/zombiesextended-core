@@ -5,7 +5,7 @@ data:extend(
             type = "item-group",
             name = "ZombiesExtended",
             order = "d",
-            icon = "__darkstar-core__/graphics/groups/ZombiesExtended.png",
+            icon = "__zombiesextended-core__/graphics/groups/ZombiesExtended.png",
             icon_size = 128
         },     
         {

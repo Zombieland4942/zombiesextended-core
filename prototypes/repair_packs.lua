@@ -3,7 +3,7 @@ data:extend({
     {
         type = "repair-tool",
         name = "repair-pack-mk1",
-        icon = "__darkstar-core__/graphics/icons/repair-pack-mk1.png",
+        icon = "__zombiesextended-core__/graphics/icons/repair-pack-mk1.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "ds-tools",
         order = "a",
@@ -14,7 +14,7 @@ data:extend({
     {
         type = "repair-tool",
         name = "repair-pack-mk2",
-        icon = "__darkstar-core__/graphics/icons/repair-pack-mk2.png",
+        icon = "__zombiesextended-core__/graphics/icons/repair-pack-mk2.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "ds-tools",
         order = "b",
@@ -25,7 +25,7 @@ data:extend({
     {
         type = "repair-tool",
         name = "repair-pack-mk3",
-        icon = "__darkstar-core__/graphics/icons/repair-pack-mk3.png",
+        icon = "__zombiesextended-core__/graphics/icons/repair-pack-mk3.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "ds-tools",
         order = "c",
@@ -70,7 +70,7 @@ data:extend({
         type = "technology",
         name = "repair-pack-mk1",
         icon_size = 128,
-        icon = "__darkstar-core__/graphics/technology/repair-pack-mk1.png",
+        icon = "__zombiesextended-core__/graphics/technology/repair-pack-mk1.png",
         effects = {
             {
                 type = "unlock-recipe",
@@ -93,7 +93,7 @@ data:extend({
         type = "technology",
         name = "repair-pack-mk2",
         icon_size = 128,
-        icon = "__darkstar-core__/graphics/technology/repair-pack-mk2.png",
+        icon = "__zombiesextended-core__/graphics/technology/repair-pack-mk2.png",
         effects = {
             {
                 type = "unlock-recipe",
@@ -117,7 +117,7 @@ data:extend({
         type = "technology",
         name = "repair-pack-mk3",
         icon_size = 128,
-        icon = "__darkstar-core__/graphics/technology/repair-pack-mk3.png",
+        icon = "__zombiesextended-core__/graphics/technology/repair-pack-mk3.png",
         effects = {
             {
                 type = "unlock-recipe",
