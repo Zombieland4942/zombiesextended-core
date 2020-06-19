@@ -38,7 +38,7 @@ for x, nuclear_fuel in pairs(nuclear_fuel_items) do
     {
         type = "recipe",
         name = nuclear_fuel.name,
-        enabled = true,
+        enabled = false,
         ingredients = nuclear_fuel.ingredients,
         result = nuclear_fuel.name
     },
