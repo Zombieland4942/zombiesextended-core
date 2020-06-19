@@ -6,7 +6,7 @@
     "contact": "",
     "homepage": "",
     "dependencies": [
-        "base >= 0.18.31"
+        "base >= 0.18.31","?deadlock-beltboxes-loaders"
     ],
     "description": "",
     "factorio_version": "0.18"

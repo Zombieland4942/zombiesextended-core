@@ -10,6 +10,12 @@ data:extend(
         },     
         {
             type = "item-subgroup",
+            name = "stackse-ZombiesExtended",
+            group = "ZombiesExtended",
+            order = "a-a"
+        }, 
+        {
+            type = "item-subgroup",
             name = "ds-raw-resource",
             group = "ZombiesExtended",
             order = "a-a"
