@@ -9,6 +9,6 @@
         "base >= 0.18.31",
         "?deadlock-beltboxes-loaders"
     ],
-    "description": "ZombiesExtended Core Mod - Adds a few core items to Factorio. This mod is still being tuned, please check the readme before upgrading the mod. Ps. No Zombies are added.",
+    "description": "ZombiesExtended Core Mod - Adds a few core items to Factorio. This mod is still being tuned, please check the changelog before upgrading the mod. Ps. No Zombies are added.",
     "factorio_version": "0.18"
 }
