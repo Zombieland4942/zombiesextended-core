@@ -59,4 +59,8 @@ for x, nuclear_fuel in pairs(nuclear_fuel_items) do
         prerequisites = nuclear_fuel.technology.prereq,
         order = "a"
     }})
+        
+    table.insert(data.raw["module"]["productivity-module"].limitation, nuclear_fuel.name)
+    table.insert(data.raw["module"]["productivity-module-2"].limitation, nuclear_fuel.name)
+    table.insert(data.raw["module"]["productivity-module-3"].limitation, nuclear_fuel.name)
 end

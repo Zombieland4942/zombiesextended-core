@@ -48,3 +48,7 @@ data:extend({
     order = "a-b-c"
   }
 })
+
+table.insert(data.raw["module"]["productivity-module"].limitation, "complex-processing-unit")
+table.insert(data.raw["module"]["productivity-module-2"].limitation, "complex-processing-unit")
+table.insert(data.raw["module"]["productivity-module-3"].limitation, "complex-processing-unit")

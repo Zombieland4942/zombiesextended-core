@@ -113,3 +113,7 @@ data:extend(
   }
 }
 )
+
+table.insert(data.raw["module"]["productivity-module"].limitation, "vibranium-plate")
+table.insert(data.raw["module"]["productivity-module-2"].limitation, "vibranium-plate")
+table.insert(data.raw["module"]["productivity-module-3"].limitation, "vibranium-plate")

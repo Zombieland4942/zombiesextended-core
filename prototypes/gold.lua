@@ -113,3 +113,7 @@ data:extend(
   }
 }
 )
+
+table.insert(data.raw["module"]["productivity-module"].limitation, "gold-plate")
+table.insert(data.raw["module"]["productivity-module-2"].limitation, "gold-plate")
+table.insert(data.raw["module"]["productivity-module-3"].limitation, "gold-plate")
