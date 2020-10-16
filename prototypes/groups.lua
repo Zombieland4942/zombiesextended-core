@@ -67,19 +67,19 @@ data:extend(
             name = "ds-trains",
             group = "ZombiesExtended",
             order = "a-i"
-        },      
-        {
-            type = "item-subgroup",
-            name = "ds-robots",
-            group = "ZombiesExtended",
-            order = "a-j"
         },     
         {
             type = "item-subgroup",
             name = "ds-robotports",
             group = "ZombiesExtended",
+            order = "a-j"
+        }, 
+        {
+            type = "item-subgroup",
+            name = "ds-robots",
+            group = "ZombiesExtended",
             order = "a-k"
-        },
+        },     
         {
             type = "item-subgroup",
             name = "ds-early-power",

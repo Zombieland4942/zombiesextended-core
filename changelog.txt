@@ -3,6 +3,7 @@ Version: 1.0.1
 Date: ????
   Changes:
     - Adjusted Repair Pack Research Cost and Ingredient Cost
+    - Adjusted menu layout
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2020-08-28
