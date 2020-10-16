@@ -39,8 +39,8 @@ data:extend({
         enabled = false,
         ingredients =
         {
-            {"repair-pack", 2},
-            {"gold-plate", 5},
+            {"repair-pack", 1},
+            {"gold-plate", 2},
         },
         result = "repair-pack-mk1"
     },    
@@ -50,8 +50,8 @@ data:extend({
         enabled = false,
         ingredients =
         {
-            {"repair-pack-mk1", 2},
-            {"gold-plate", 10},
+            {"repair-pack-mk1", 1},
+            {"gold-plate", 6},
         },
         result = "repair-pack-mk2"
     },    
@@ -61,8 +61,8 @@ data:extend({
         enabled = false,
         ingredients =
         {
-            {"repair-pack-mk2", 2},
-            {"gold-plate", 15},
+            {"repair-pack-mk2", 1},
+            {"gold-plate", 10},
         },
         result = "repair-pack-mk3"
     },
@@ -79,7 +79,7 @@ data:extend({
         },
         unit =
         {
-            count = 100,
+            count = 50,
             ingredients = {
                 {"automation-science-pack",1},
                 {"logistic-science-pack",1},
@@ -102,7 +102,7 @@ data:extend({
         },
         unit =
         {
-            count = 200,
+            count = 70,
             ingredients = {
                 {"automation-science-pack",1},
                 {"logistic-science-pack",1},
@@ -126,7 +126,7 @@ data:extend({
         },
         unit =
         {
-            count = 300,
+            count = 90,
             ingredients = {
                 {"automation-science-pack",1},
                 {"logistic-science-pack",1},
