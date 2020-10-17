@@ -14,6 +14,7 @@ data:extend({
     type = "recipe",
     name = "complex-processing-unit",
     enabled = false,
+    energy_required = 20,
     ingredients =
     {
       {"processing-unit", 1},
