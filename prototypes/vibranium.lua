@@ -104,12 +104,38 @@ data:extend(
         }
       }
     },
+    stages_effect =
+    {
+      sheet =
+      {
+        filename = "__zombiesextended-core__/graphics/entity/vibranium-ore-glow.png",
+        priority = "extra-high",
+        width = 64,
+        height = 64,
+        frame_count = 8,
+        variation_count = 8,
+        blend_mode = "additive",
+        flags = {"light"},
+        hr_version =
+        {
+          filename = "__zombiesextended-core__/graphics/entity/hr-vibranium-ore-glow.png",
+          priority = "extra-high",
+          width = 128,
+          height = 128,
+          frame_count = 8,
+          variation_count = 8,
+          scale = 0.5,
+          blend_mode = "additive",
+          flags = {"light"}
+        }
+      }
+    },
     effect_animation_period = 5,
     effect_animation_period_deviation = 1,
     effect_darkness_multiplier = 3.6,
     min_effect_alpha = 0.2,
-    max_effect_alpha = 0.3,
-    map_color = {34, 33, 39}
+    max_effect_alpha = 0.9,
+    map_color = {0, 39, 100}
   }
 }
 )

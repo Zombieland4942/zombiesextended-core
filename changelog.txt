@@ -3,6 +3,7 @@ Version: 1.0.2
 Date: ????
   Changes:
     - Added Gun, Laser and Flame Turrets Mk1 & Mk2
+    - Changed Vibranium Colour, Resource Glow & Map Colour
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2020-10-17
