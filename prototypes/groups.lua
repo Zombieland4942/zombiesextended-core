@@ -130,45 +130,51 @@ data:extend(
         },
         {
             type = "item-subgroup",
-            name = "ds-assult",
+            name = "ds-turrets",
             group = "ZombiesExtended",
             order = "d-a"
         },
         {
             type = "item-subgroup",
-            name = "ds-sniper",
+            name = "ds-assult",
             group = "ZombiesExtended",
             order = "d-b"
         },
         {
             type = "item-subgroup",
-            name = "ds-railgun",
+            name = "ds-sniper",
             group = "ZombiesExtended",
             order = "d-c"
         },
         {
             type = "item-subgroup",
-            name = "ds-rockets",
+            name = "ds-railgun",
             group = "ZombiesExtended",
             order = "d-d"
         },
         {
             type = "item-subgroup",
-            name = "ds-equipment",
+            name = "ds-rockets",
             group = "ZombiesExtended",
             order = "d-e"
         },
         {
             type = "item-subgroup",
-            name = "ds-wall",
+            name = "ds-equipment",
             group = "ZombiesExtended",
             order = "d-f"
+        },
+        {
+            type = "item-subgroup",
+            name = "ds-wall",
+            group = "ZombiesExtended",
+            order = "d-g"
         },      
         {
             type = "item-subgroup",
             name = "ds-radar",
             group = "ZombiesExtended",
-            order = "d-g"
+            order = "d-h"
         },
     }
 )
