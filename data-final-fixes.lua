@@ -7,4 +7,6 @@ if deadlock then
   deadlock.add_stack("vibranium-plate", "__zombiesextended-core__/graphics/icons/stacked-vibranium-plate.png", "deadlock-stacking-1", 64)
 
   deadlock.add_stack("complex-processing-unit", "__zombiesextended-core__/graphics/icons/stacked-complex-processing-unit.png", "deadlock-stacking-1", 64)
+  
+  deadlock.add_stack("plutonium", "__zombiesextended-core__/graphics/icons/stacked-plutonium.png", "deadlock-stacking-3", 64)
 end

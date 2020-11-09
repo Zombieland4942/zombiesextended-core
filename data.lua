@@ -6,6 +6,7 @@ require("prototypes.equipment-grid")
 -- Resources
 require("prototypes.gold")
 require("prototypes.vibranium")
+require("prototypes.plutonium")
 
 -- Intermediates
 require("prototypes.intermediates")
