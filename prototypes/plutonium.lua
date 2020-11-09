@@ -3,7 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "plutonium",
-    enabled = true,
+    enabled = false,
     energy_required = 240,
     icon = "__zombiesextended-core__/graphics/icons/kovarex-enrichment-process.png",
     icon_size = 64,
@@ -27,6 +27,31 @@ data:extend(
     subgroup = "ds-raw-resource",
     order = "c",
     stack_size = 50
+  },
+  {
+    type = "technology",
+    name = "plutonium-processing",
+    icon = "__zombiesextended-core__/graphics/technology/plutonium-processing.png",
+    icon_size = 128,
+    effects = {
+      {
+        type = "unlock-recipe",
+        recipe = "plutonium"
+      }
+    },
+    unit =
+    {
+      count = 800,
+      ingredients = {
+        {"automation-science-pack",1},
+        {"logistic-science-pack",1},
+        {"chemical-science-pack",1},
+        {"production-science-pack",1}
+      },
+      time = 60
+    },
+    prerequisites = {"kovarex-enrichment-process"},
+    order = "a-b-c"
   }
 }
 )
