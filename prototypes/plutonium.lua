@@ -1,3 +1,10 @@
+local subgroup = "intermediate-product"
+
+if settings.startup["zombies-use-seperate-tab"].value == true then
+  subgroup  = "ds-raw-resource"
+end
+
+
 data:extend(
 {
   {
@@ -14,9 +21,11 @@ data:extend(
     },
     results = 
     {
-        { type="item", name = "plutonium", amount = 81 },
-    },
-    subgroup = "ds-raw-resource",
+      { type="item", name = "uranium-235", amount = 2 },
+      { type="item", name = "plutonium", amount = 81 },
+    },    
+    order = "r[uranium-processing]-d[plutonium-enrichment]",    
+    subgroup = subgroup,
     category = "centrifuging"
   },
   {
@@ -24,8 +33,8 @@ data:extend(
     name = "plutonium",
     icon = "__zombiesextended-core__/graphics/icons/plutonium.png",
     icon_size = 64, icon_mipmaps = 4,
-    subgroup = "ds-raw-resource",
-    order = "c",
+    subgroup = subgroup,
+    order = "r[uranium-239]",
     stack_size = 50
   },
   {

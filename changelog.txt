@@ -2,6 +2,10 @@
 Version: 1.0.5
 Date: ????
   Changes:
+    - Added new experimental setting to relocate items into their normal vanilla locations
+    - Updated all items in Core to respect the new setting above
+    - Renamed the Plutonium Recipe in the locale
+    - Tweaked the output of the Plutonium Recipe
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.4
 Date: 2020-11-24

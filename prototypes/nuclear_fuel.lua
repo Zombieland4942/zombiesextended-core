@@ -15,12 +15,19 @@ technology_3 = {
 }
 
 nuclear_fuel_items = {
-    { order = "f-a", name = "nuclear-fuel-mk1", fuel_value = "2.42GJ", fuel_acceleration_multiplier = 3, fuel_top_speed_multiplier = 2, ingredients = { {"nuclear-fuel", 2},{"vibranium-plate", 5} }, technology = technology_1 },
-    { order = "f-b", name = "nuclear-fuel-mk2", fuel_value = "4.84GJ", fuel_acceleration_multiplier = 4, fuel_top_speed_multiplier = 3, ingredients = { {"nuclear-fuel-mk1", 2},{"vibranium-plate", 5} }, technology = technology_2 },
-    { order = "f-c", name = "nuclear-fuel-mk3", fuel_value = "9.68GJ", fuel_acceleration_multiplier = 5, fuel_top_speed_multiplier = 4, ingredients = { {"nuclear-fuel-mk2", 2},{"vibranium-plate", 5} }, technology = technology_3 },
+    { order = "1", name = "nuclear-fuel-mk1", fuel_value = "2.42GJ", fuel_acceleration_multiplier = 3, fuel_top_speed_multiplier = 2, ingredients = { {"nuclear-fuel", 2},{"vibranium-plate", 5} }, technology = technology_1 },
+    { order = "2", name = "nuclear-fuel-mk2", fuel_value = "4.84GJ", fuel_acceleration_multiplier = 4, fuel_top_speed_multiplier = 3, ingredients = { {"nuclear-fuel-mk1", 2},{"vibranium-plate", 5} }, technology = technology_2 },
+    { order = "3", name = "nuclear-fuel-mk3", fuel_value = "9.68GJ", fuel_acceleration_multiplier = 5, fuel_top_speed_multiplier = 4, ingredients = { {"nuclear-fuel-mk2", 2},{"vibranium-plate", 5} }, technology = technology_3 },
 }
 
 local fuel_base = util.table.deepcopy(data.raw["item"]["nuclear-fuel"])
+
+local subgroup = fuel_base.subgroup
+
+if settings.startup["zombies-use-seperate-tab"].value == true then
+  subgroup  = "ds-fuel"
+end
+
 
 for x, nuclear_fuel in pairs(nuclear_fuel_items) do
     
@@ -28,8 +35,8 @@ for x, nuclear_fuel in pairs(nuclear_fuel_items) do
 
     item.name = nuclear_fuel.name
     item.icon = "__zombiesextended-core__/graphics/icons/" .. nuclear_fuel.name .. ".png"    
-    item.order = nuclear_fuel.order
-    item.subgroup = "ds-fuel"
+    item.order = "r" .. nuclear_fuel.order
+    item.subgroup = subgroup
     item.fuel_value = nuclear_fuel.fuel_value
     item.fuel_acceleration_multiplier = nuclear_fuel.fuel_acceleration_multiplier
     item.fuel_top_speed_multiplier = nuclear_fuel.fuel_top_speed_multiplier

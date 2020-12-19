@@ -1,5 +1,13 @@
 local resource_autoplace = require("resource-autoplace")
 
+local ore_subgroup = "raw-resource"
+local plate_subgroup = "raw-material"
+
+if settings.startup["zombies-use-seperate-tab"].value == true then
+  ore_subgroup  = "ds-raw-resource"
+  plate_subgroup = "ds-intermediates"
+end
+
 data:extend(
 {
   {
@@ -22,8 +30,8 @@ data:extend(
     name = "vibranium-ore",
     icon = "__zombiesextended-core__/graphics/icons/vibranium-ore.png",
     icon_size = 64, icon_mipmaps = 4,
-    subgroup = "ds-raw-resource",
-    order = "b",
+    subgroup = ore_subgroup,
+    order = "h2[vibranium-ore]",
     stack_size = 50
   },  
   {
@@ -31,8 +39,8 @@ data:extend(
     name = "vibranium-plate",
     icon = "__zombiesextended-core__/graphics/icons/vibranium-plate.png",
     icon_size = 64, icon_mipmaps = 4,
-    subgroup = "ds-intermediates",
-    order = "b",
+    subgroup = plate_subgroup,
+    order = "e-v[vibranium-plate]",
     stack_size = 100
   },
   {

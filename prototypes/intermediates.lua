@@ -1,13 +1,19 @@
 -- Complex Processing Unit
 
+local subgroup = "intermediate-product"
+
+if settings.startup["zombies-use-seperate-tab"].value == true then
+  subgroup  = "ds-intermediates"
+end
+
 data:extend({
   {
     type = "item",
     name = "complex-processing-unit",
     icon = "__zombiesextended-core__/graphics/icons/complex-processing-unit.png",
     icon_size = 64, icon_mipmaps = 4,
-    subgroup = "ds-intermediates",
-    order = "a",
+    subgroup = subgroup,
+    order = "h1[complex-processing-unit]",
     stack_size = 200
   },
   {

@@ -1,3 +1,9 @@
+local subgroup = "tool"
+
+if settings.startup["zombies-use-seperate-tab"].value == true then
+  subgroup  = "ds-tools"
+end
+
 
 data:extend({    
     {
@@ -5,8 +11,8 @@ data:extend({
         name = "repair-pack-mk1",
         icon = "__zombiesextended-core__/graphics/icons/repair-pack-mk1.png",
         icon_size = 64, icon_mipmaps = 4,
-        subgroup = "ds-tools",
-        order = "a",
+        subgroup = subgroup,
+        order = "c1",
         speed = 4,
         durability = 600,
         stack_size = 100
@@ -16,8 +22,8 @@ data:extend({
         name = "repair-pack-mk2",
         icon = "__zombiesextended-core__/graphics/icons/repair-pack-mk2.png",
         icon_size = 64, icon_mipmaps = 4,
-        subgroup = "ds-tools",
-        order = "b",
+        subgroup = subgroup,
+        order = "c2",
         speed = 8,
         durability = 1200,
         stack_size = 100
@@ -27,8 +33,8 @@ data:extend({
         name = "repair-pack-mk3",
         icon = "__zombiesextended-core__/graphics/icons/repair-pack-mk3.png",
         icon_size = 64, icon_mipmaps = 4,
-        subgroup = "ds-tools",
-        order = "c",
+        subgroup = subgroup,
+        order = "c3",
         speed = 16,
         durability = 2400,
         stack_size = 100
