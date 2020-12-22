@@ -39,7 +39,8 @@ for x, nuclear_fuel in pairs(nuclear_fuel_items) do
     item.subgroup = subgroup
     item.fuel_value = nuclear_fuel.fuel_value
     item.fuel_acceleration_multiplier = nuclear_fuel.fuel_acceleration_multiplier
-    item.fuel_top_speed_multiplier = nuclear_fuel.fuel_top_speed_multiplier
+    item.fuel_top_speed_multiplier = nuclear_fuel.fuel_top_speed_multiplier    
+    item.pictures = nill
 
     data:extend({ item,
     {
